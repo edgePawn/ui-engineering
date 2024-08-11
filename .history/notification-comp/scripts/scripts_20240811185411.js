@@ -1,1 +1,0 @@
-function showN(type,message)

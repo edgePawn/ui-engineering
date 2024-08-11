@@ -1,7 +1,0 @@
-
-
-
-
-function showNotification(type,message){
-    
-}

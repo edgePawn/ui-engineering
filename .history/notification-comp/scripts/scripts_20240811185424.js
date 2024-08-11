@@ -1,1 +1,0 @@
-function showNotification(type,message
