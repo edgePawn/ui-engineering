@@ -26,3 +26,27 @@ right: 20px;
     transition: opacity 0.4 ease  transform 0.4 ease;
 opacity: 0;
 }
+
+.notification.show{
+    opacity: 0;
+    transform: translateY(0);
+}
+.notification.hide{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.notification.success {
+    background: #4caf50;
+}
+
+.notification.error {
+    background: #f44336;
+}
+
+.notification.info {
+    background: #2196f3;
+}
+
+.notification.warning {
+    background: #ff9800;
+}
