@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+background-color: #f0f0f0;
+}
+#notification-container{
+position: fixed;
+top: 20px;
+right: 20px;
+    max-width: 300px;
+    z-index: 1000;
+}
+
+.notification{
+    background-color:#444;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius:4px ;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.4 ease  transform 0.4 ease;
+opacity: 0;
+}
+
+.notification.show{
+    opacity: 0;
+    transform: translateY(0);
+}
+.notification.hide{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.notification.success {
+    background: #4caf50;
+}
+
+.notification.error {
+    background: #f44336;
+}a
+
+.notification.info {
+    background: #2196f3;
+}
+
+.notification.warning {
+    background: #ff9800;
+}
